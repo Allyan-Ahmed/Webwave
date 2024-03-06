@@ -721,6 +721,13 @@ section {
 --------------------------------------------------------------*/
 
 .services .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services .icon-box {
   padding: 60px 30px;
   transition: all ease-in-out 0.3s;
   background: #fefefe;
